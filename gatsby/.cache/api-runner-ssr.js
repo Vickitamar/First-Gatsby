@@ -1,4 +1,10 @@
 var plugins = [{
+      plugin: require('/Users/victoriaedwards/Documents/courses/master-gatsby/starter-files/gatsby/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/victoriaedwards/Documents/courses/master-gatsby/starter-files/gatsby/node_modules/gatsby-source-sanity/gatsby-ssr'),
+      options: {"plugins":[],"projectId":"npfx97lq","dataset":"production","watchMode":true,"token":"skqKPaUHGTtidhdL9Vekm9oSvN8EGAiruelPdBK2pCsicCWFPoiZHLzjlVxrxttucd8MYxlw9fWOviVy7rRL8OP6Xxmng0xtyOpxIkberNuLT36vYJUvy2RoBd2bnOdiYKnYWs7HRFDLUdtFjU1DBIv25aE0q9RfaNAgb2ZlM6stIACcClxw"},
+    },{
       plugin: require('/Users/victoriaedwards/Documents/courses/master-gatsby/starter-files/gatsby/gatsby-ssr'),
       options: {"plugins":[]},
     }]
